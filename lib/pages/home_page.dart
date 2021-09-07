@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/widgets/drawer.dart';
 
 // ignore: must_be_immutable
 class HomePage extends StatelessWidget {
@@ -18,7 +19,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
